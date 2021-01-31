@@ -1,0 +1,22 @@
+body{
+    margin: 0 100px;
+    padding: 20px;
+}
+header > .menu{
+    background-color: gray;
+    padding:5px 15px;
+}
+header > .menu > a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+    font-size: 22px;
+}
+h1{
+    font-size: 44px;
+    padding: 20px;
+}
+footer{
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
