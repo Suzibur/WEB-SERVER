@@ -6,13 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="scripts/script.js"></script>
 </head>
 
 <body>
     {{>header}}
     <h1>{{title}}</h1>
+
+    <form>
+        <h2>Search here</h2>
+        <input placeholder="Location">
+        <button type="submit">Search</button>
+    </form>
+    <p id='result'></p>
     {{>footer}}
+    <script src="scripts/script.js"></script>
+
 </body>
 
 </html>
