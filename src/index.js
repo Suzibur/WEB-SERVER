@@ -5,8 +5,8 @@ const hbs = require('hbs');
 const getWeather = require('./getWeather')
 
 const publicDirectoryPath = path.join(__dirname, '../public');
-const viewsPath = path.join(__dirname, '../private/views');
-const partialsPath = path.join(__dirname, '../private/partials');
+const viewsPath = path.join(__dirname, '../template/views');
+const partialsPath = path.join(__dirname, '../template/partials');
 
 app.set('view engine', 'hbs');
 app.set('views', viewsPath);
